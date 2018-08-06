@@ -71,6 +71,9 @@ class ScriptedInvoker : public IPluginFunction
   const char* DebugName() {
     return full_name_.get();
   }
+  const char* DisplayName() {
+    return public_->name;
+  }
 
  public:
   sp_public_t* Public() const {

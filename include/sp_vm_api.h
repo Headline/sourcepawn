@@ -261,6 +261,13 @@ namespace SourcePawn
 	 * @return       String name.
      */
     virtual const char *DebugName() = 0;
+
+    /**
+     * @brief Returns the fuction's display name.
+     *
+     * @return        Display name.
+     */
+    virtual const char *DisplayName() = 0;
   };
 
 
